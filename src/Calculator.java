@@ -91,6 +91,7 @@ public class Calculator extends JFrame implements ActionListener {
         this.add(negButton);
         this.add(delButton);
         this.add(clrButton);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
 
